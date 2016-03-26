@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Burrito Form</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form action="https://httpbin.org/post" method="post">
+      <p>
+        <label for="customer">Customer Name:</label><input type="text" name="customer" required />
+      </p>
+      <p>
+        <label for="phone">Phone Number:</label><input type="text" name="phone" />
+      </p>
+      <fieldset>
+        <legend>Tortillas</legend>
+        <p>
+          <label>
+            <input type="radio" name="tortilla" value="White" />
+            White
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="tortilla" value="Wheat" />
+            Whole Wheat
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="tortilla" value="B Rice" />
+            Brown Rice
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="tortilla" value="Gluten" />
+            Gluten Free
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Protein</legend>
+        <p>
+          <label>
+            <input type="radio" name="protein" value="Pollo" />
+            Pollo
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="protein" value="Pastor" />
+            Pastor
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="protein" value="Lengua" />
+            Lengua
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="protein" value="Carne Asada" />
+            Carne Asada
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Rice</legend>
+        <p>
+          <label>
+            <input type="radio" name="rice" value="Brown" />
+            Brown
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="rice" value="White" />
+            White
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="rice" value="Lime" />
+            Lime White
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="rice" value="Garlic" />
+            Garlic Brown
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Beans</legend>
+        <p>
+          <label>
+            <input type="checkbox" name="beans" value="Black" />
+            Black Beans
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="beans" value="Pinto" />
+            Pinto
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Extras</legend>
+        <p>
+          <label>
+            <input type="checkbox" name="extras" value="Sour Cream" />
+            Sour Cream
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="extras" value="Guac" />
+            Guacamole
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="extras" value="Peppers" />
+            Jalapeno Peppers
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="extras" value="Salsa" />
+            Salsa
+          </label>
+        </p>
+      </fieldset>
+      <button>Submit Order</button>
+    </form>
+  </body>
+  </html>
